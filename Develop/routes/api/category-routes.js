@@ -17,11 +17,20 @@ router.get('/', (req, res) => {
   });
 });
 
+// include: [{
+//   model: Product,
+//   through: {
+//     attributes: ['id', 'product_name', 'prize','stock','category_id']
+//   }
+// }]
 router.get('/:id', (req, res) => {
   // find one category by its `id` value
   // be sure to include its associated Products
   Category.findOne({
-    include:[Product]
+    where :{
+      id:req.params.id
+    }, 
+    include: [Product]
   })
   .then(dbCategory => {
     res.json(dbCategory);
@@ -51,7 +60,7 @@ router.put('/:id', (req, res) => {
     } 
     })
     .then(dbCategory => {
-      res.json(dbCategory);
+      res.json(dbCategory + "Record Updated Successfully");
     })
     .catch(err=>{
       res.status(404).send(err);
@@ -67,7 +76,7 @@ router.delete('/:id', (req, res) => {
   } 
   })
   .then(dbCategory => {
-    res.json(dbCategory);
+    res.json(dbCategory + "Record Deleted Successfully");
   })
   .catch(err=>{
     res.status(404).send(err);
