@@ -19,7 +19,8 @@
     npm install
 
 ## Project Deployment / GitHub Detail
-    This project is deployed in Github. User can go thru files and clone the project. For clone the project use below options or you can download Zip file.
+
+This project is deployed in Github. User can go thru files and clone the project. For clone the project use below options or you can download Zip file.
 
 SSH - "git@github.com:bhumisha/E-Commerce.git"
 
@@ -34,4 +35,4 @@ Database Overview Video Link
 https://drive.google.com/file/d/1pkoOW-fccXsC_u7T1MrTppq3Ra4hRwAZ/view?usp=sharing
 
 All Different Express-Api Routes details Video Link
-https://drive.google.com/file/d/10I_iMJFgbCvGpT9393gzLqer1PbcoOxZ/view?usp=sharing
+https://drive.google.com/file/d/1JyKORfEG_378XvRMifXFhH-VGybH99Su/view?usp=sharing
