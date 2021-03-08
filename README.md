@@ -36,3 +36,8 @@ https://drive.google.com/file/d/1pkoOW-fccXsC_u7T1MrTppq3Ra4hRwAZ/view?usp=shari
 
 All Different Express-Api Routes details Video Link
 https://drive.google.com/file/d/1JyKORfEG_378XvRMifXFhH-VGybH99Su/view?usp=sharing
+
+## Images
+
+Below image shows overview of Insomnia api routes and its result in JSON.
+![](Develop/assets/insomnia.png)
